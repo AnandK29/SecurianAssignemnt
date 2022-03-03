@@ -1,0 +1,26 @@
+{
+    "inputBoxes":{
+    "currentAge": "//input[@id='current-age']",
+    "retirement": "//input[@id='retirement-age']",
+    "currentAnnualIncome": "//input[@id='current-income']",
+    "spouseAnnualIncome": "//input[@id='spouse-income']",
+    "currentRetireSavings": "//input[@id='current-total-savings']",
+    "currentRetireContribution" : "//input[@id='current-annual-savings']",
+    "annualRetirementContributionIncrease": "//input[@id='savings-increase-rate']",
+    "socialSecurityIncome":"//input[@id='yes-social-benefits']",
+    "relatantipStatus":"//input[@id='married']",
+    "socialSecurityOverride": "//input[@id='social-security-override']",
+    "additionalOtherIncome": "//input[@id='additional-income']",
+    "numberOfYearsRetirement": "//input[@id='retirement-duration']",
+    "postRetirementIncomeIncreaseWithInflation":"//input[@id='include-inflation']",
+    "percentOfinFalAnnualIncomeDesired": "//input[@id='retirement-annual-income']",
+    "preRetirementInvestmentReturn": "//input[@id='pre-retirement-roi']",
+    "postRetirementInvestmentReturn": "//input[@id='post-retirement-roi']"
+    },
+    "buttons":{
+    "adjustDefaultValuesButton" :"//li[@id='assumption-desc']/following-sibling::li/a",
+    "saveButton" :"//input[@value='Save changes']",
+    "calculatorButton": "//button[@data-tag-id='submit']"
+    },
+    "results":"//li[@id='result-message']"
+}
