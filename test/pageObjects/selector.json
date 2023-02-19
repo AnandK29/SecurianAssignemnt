@@ -19,8 +19,8 @@
     },
     "buttons":{
     "adjustDefaultValuesButton" :"//li[@id='assumption-desc']/following-sibling::li/a",
-    "saveButton" :"//input[@value='Save changes']",
+    "saveButton" :"#default-values-form button.btn-block",
     "calculatorButton": "//button[@data-tag-id='submit']"
     },
-    "results":"//li[@id='result-message']"
+    "results":"//p[@id='result-message']"
 }
